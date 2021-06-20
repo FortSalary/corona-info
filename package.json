@@ -1,0 +1,31 @@
+{
+  "name": "corona-info",
+  "version": "1.0.0",
+  "description": "This module gives you easy access to covid 19 data.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid",
+    "covid19",
+    "covid-19",
+    "covid-api",
+    "covid-usa",
+    "pakistan",
+    "api",
+    "coronavirus",
+    "corana",
+    "usa-covid",
+    "Covid19",
+    "Covid-19"
+  ],
+  "author": "okyanus",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "corona-info",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module gives you easy access to covid 19 data.",
   "main": "index.js",
   "directories": {
@@ -37,7 +37,8 @@
     "2019",
     "2020",
     "corona19",
-    "npm"
+    "npm",
+    "corona"
   ],
   "author": "okyanus",
   "license": "MIT",

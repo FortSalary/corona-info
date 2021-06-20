@@ -70,7 +70,7 @@ const covidData = async () => {
 }
 
 covidData();
-// Output: 34.402.791
+// Output: '34.402.791'
 ```
 
 # Example usage with ".then" construct:
@@ -130,5 +130,5 @@ const covid = require('corona-info');
 covid.getCountry("USA").then(res => {
     console.log(res.cases);
 });
-// Output: 34.402.791
+// Output: '34.402.791'
 ```

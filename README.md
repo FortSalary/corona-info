@@ -1,3 +1,8 @@
+# 🦠 coronaInfo
+
+[![NPM](https://nodei.co/npm/corona-info.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/corona-info/)
+
+
 # Installing
 
 - npm install corona-info

@@ -8,7 +8,7 @@
 - npm install corona-info
 
 
-# Example usage with "async-await" construct:
+#   Example usage with "async-await" construct:
 
 To pull all the data
 

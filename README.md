@@ -3,7 +3,7 @@
 - npm install corona-info
 
 
-# Example usage with "async-await" construct:
+# <i class="fas fa-virus"></i> Example usage with "async-await" construct:
 
 To pull all the data
 

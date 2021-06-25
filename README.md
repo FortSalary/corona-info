@@ -3,7 +3,7 @@
 [![NPM](https://nodei.co/npm/corona-info.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/corona-info/)
 
 **New Update**
-- getAll() and getCountry() are replaced by find
+- .getAll() and .getCountry() methods are replaced by the .findData({ country: <all> or <country name> }) method
 
 # Installing
 
@@ -18,7 +18,7 @@ To pull all the data
 const covid = require('corona-info');
 
 const covidData = async () => {
-    let data = await covid.find({ country: "all" });
+    let data = await covid.findData({ country: "all" });
     console.log(data)
 }
 
@@ -44,7 +44,7 @@ To pull country data
 const covid = require('corona-info'); 
 
 const covidData = async () => {
-    let data = await covid.find({ country: "USA" });
+    let data = await covid.findData({ country: "USA" });
     console.log(data);
 };
 
@@ -72,7 +72,7 @@ If you want to pull certain data
 const covid = require('corona-info');
 
 const covidData = async () => {
-    let data = await covid.find({ country: "all" });
+    let data = await covid.findData({ country: "all" });
     console.log(data.cases)
 }
 
@@ -87,7 +87,7 @@ To pull all the data
 ```js
 const covid = require('corona-info');
 
-covid.find({ country: "all" }).then(res => {
+covid.findData({ country: "all" }).then(res => {
     console.log(res);
 });
 
@@ -110,7 +110,7 @@ To pull country data
 ```js
 const covid = require('corona-info'); 
 
-covid.find({ country: "USA" }).then(res => {
+covid.findData({ country: "USA" }).then(res => {
     console.log(res);
 });
 /*{
@@ -134,7 +134,7 @@ If you want to pull certain data
 ```js
 const covid = require('corona-info');
 
-covid.find({ country: "USA" }).then(res => {
+covid.findData({ country: "USA" }).then(res => {
     console.log(res.cases);
 });
 // Output: '34.402.791'

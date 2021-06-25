@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 let baseURL = `https://corona.lmao.ninja/v2/`
 
 module.exports = {
-    find: async function ({ country }) {
+    findData: async function ({ country }) {
         if (country !== "all") {
         const query = encodeURI(country)
         if (!query) throw new Error("Example Usage => coronaInfo.find({ country: \"USA\" })")

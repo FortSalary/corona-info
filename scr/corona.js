@@ -12,7 +12,7 @@ module.exports = {
 
         let res = await response.json();
 
-        if (res.message == "Country not found or doesn't have any cases") return ("Country not found or doesn't have any cases");
+        if (res.message == "Country not found or doesn't have any cases") throw new Error("Country not found or doesn't have any cases");
 
         const d = new Date(res.updated);
         const newdate = d.toLocaleDateString();
